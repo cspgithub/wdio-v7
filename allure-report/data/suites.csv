@@ -1,0 +1,4 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Sun Jan 30 20:07:29 IST 2022","Sun Jan 30 20:07:45 IST 2022","15595","","My Login application","","My Login application","should login with valid credentials","should login with valid credentials",""
+"failed","Sun Jan 30 20:07:29 IST 2022","Sun Jan 30 20:07:42 IST 2022","13204","","main Page","","main Page","count list items and get text","count list items and get text",""
+"passed","Sun Jan 30 20:07:45 IST 2022","Sun Jan 30 20:07:45 IST 2022","6","","My Login application","","My Login application","should logout and verify logout alert message","should logout and verify logout alert message",""

@@ -1,0 +1,31 @@
+[ {
+  "uid" : "1cd80b9364bd1f3f",
+  "name" : "should logout and verify logout alert message",
+  "time" : {
+    "start" : 1643553465557,
+    "stop" : 1643553465563,
+    "duration" : 6
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "13a56782edb018fd",
+  "name" : "should login with valid credentials",
+  "time" : {
+    "start" : 1643553449961,
+    "stop" : 1643553465556,
+    "duration" : 15595
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cab61c53899a57d9",
+  "name" : "count list items and get text",
+  "time" : {
+    "start" : 1643553449748,
+    "stop" : 1643553462952,
+    "duration" : 13204
+  },
+  "status" : "failed",
+  "severity" : "normal"
+} ]

@@ -1,0 +1,77 @@
+{
+  "uid" : "cab61c53899a57d9",
+  "name" : "count list items and get text",
+  "fullName" : "main Page.count list items and get text",
+  "historyId" : "7b9e93cd8c8b30357271b342b59c9c0e",
+  "time" : {
+    "start" : 1643553449748,
+    "stop" : 1643553462952,
+    "duration" : 13204
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "expected 44 to equal 43      \n                      actual expected\n                      \n                      4443\n                      ",
+  "statusTrace" : "AssertionError: expected 44 to equal 43\n                    at Context.<anonymous> (C:\\Users\\Shekhar\\wdio-v7\\test\\specs\\maine2e.js:12:26)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 1,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "main Page"
+  }, {
+    "name" : "testClass",
+    "value" : "main Page"
+  }, {
+    "name" : "testMethod",
+    "value" : "count list items and get text"
+  }, {
+    "name" : "package",
+    "value" : "main Page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-97.0.4692.99"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "1ceb9d8382a31fed",
+      "status" : "failed",
+      "statusDetails" : "expected 44 to equal 43      \n                      actual expected\n                      \n                      4443\n                      ",
+      "time" : {
+        "start" : 1643553207910,
+        "stop" : 1643553228100,
+        "duration" : 20190
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "cab61c53899a57d9.json",
+  "parameterValues" : [ "chrome-97.0.4692.99" ]
+}

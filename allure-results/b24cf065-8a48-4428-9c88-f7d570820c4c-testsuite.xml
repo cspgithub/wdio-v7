@@ -1,0 +1,31 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1643553207909' stop='1643553228102'>
+    <name>main Page</name>
+    <title>main Page</title>
+    <test-cases>
+        <test-case start='1643553207910' status='failed' stop='1643553228100'>
+            <name>count list items and get text</name>
+            <title>count list items and get text</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-97.0.4692.99'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>expected 44 to equal 43      
+                      actual expected
+                      
+                      4443
+                      </message>
+                <stack-trace>AssertionError: expected 44 to equal 43
+                    at Context.&lt;anonymous> (C:\Users\Shekhar\wdio-v7\test\specs\maine2e.js:12:26)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

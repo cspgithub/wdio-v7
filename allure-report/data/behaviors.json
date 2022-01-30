@@ -1,0 +1,56 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "count list items and get text",
+    "uid" : "cab61c53899a57d9",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1643553449748,
+      "stop" : 1643553462952,
+      "duration" : 13204
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 1,
+    "retriesStatusChange" : false,
+    "parameters" : [ "chrome-97.0.4692.99" ]
+  }, {
+    "name" : "should login with valid credentials",
+    "uid" : "13a56782edb018fd",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1643553449961,
+      "stop" : 1643553465556,
+      "duration" : 15595
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 1,
+    "retriesStatusChange" : false,
+    "parameters" : [ "chrome-97.0.4692.99" ]
+  }, {
+    "name" : "should logout and verify logout alert message",
+    "uid" : "1cd80b9364bd1f3f",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1643553465557,
+      "stop" : 1643553465563,
+      "duration" : 6
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 1,
+    "retriesStatusChange" : false,
+    "parameters" : [ "chrome-97.0.4692.99" ]
+  } ]
+}
